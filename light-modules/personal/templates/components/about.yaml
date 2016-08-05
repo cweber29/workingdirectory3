@@ -1,0 +1,4 @@
+title: About
+renderType: freemarker
+templateScript: /personal/templates/components/about.ftl
+dialog: personal:components/about

@@ -1,0 +1,16 @@
+form:
+  label: footer text
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+
+        - name: footer
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: footer
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

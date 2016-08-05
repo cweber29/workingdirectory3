@@ -1,0 +1,23 @@
+form:
+  label: text
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: description
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Description
+
+        - name: instructions
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Instructions
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

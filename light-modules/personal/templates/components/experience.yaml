@@ -1,0 +1,4 @@
+title: Experience
+renderType: freemarker
+templateScript: /personal/templates/components/experience.ftl
+dialog: personal:components/experience

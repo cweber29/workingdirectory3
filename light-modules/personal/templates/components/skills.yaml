@@ -1,0 +1,4 @@
+title: Skills
+renderType: freemarker
+templateScript: /personal/templates/components/skills.ftl
+dialog: personal:components/skills

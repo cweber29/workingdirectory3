@@ -1,0 +1,4 @@
+title: Contact
+renderType: freemarker
+templateScript: /personal/templates/components/contact.ftl
+dialog: personal:components/contact

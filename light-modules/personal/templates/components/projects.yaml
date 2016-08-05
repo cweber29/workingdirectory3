@@ -1,0 +1,4 @@
+title: Projects
+renderType: freemarker
+templateScript: /personal/templates/components/projects.ftl
+dialog: personal:components/projects

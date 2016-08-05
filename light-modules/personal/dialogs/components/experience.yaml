@@ -1,0 +1,47 @@
+form:
+  label: experience
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: position1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Course
+
+        - name: company1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: School
+
+        - name: description1
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Description
+
+        - name: position2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Course
+
+        - name: company2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: School
+
+        - name: description2
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Description
+
+        - name: position3
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Course
+
+        - name: company3
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: School
+
+        - name: description3
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Description
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

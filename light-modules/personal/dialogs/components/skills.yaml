@@ -1,0 +1,35 @@
+form:
+  label: skills
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: skill1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Weakest Skill
+
+        - name: skill2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Okay Skill
+
+        - name: skill3
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Average Skill
+
+        - name: skill4
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Intermediate Skill
+
+        - name: skill5
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Advanced Skill
+
+        - name: skill6
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Best Skill
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

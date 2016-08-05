@@ -1,0 +1,3 @@
+Magnolia Templating Samples 5.3
+Copyright 2015 Magnolia International Ltd.
+

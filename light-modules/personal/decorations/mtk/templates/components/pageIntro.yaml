@@ -1,0 +1,2 @@
+dialog: personal:components/pageIntro
+templateScript: /personal/templates/components/pageIntro.ftl

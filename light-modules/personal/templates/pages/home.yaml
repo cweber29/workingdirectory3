@@ -1,0 +1,43 @@
+title: Cass Home
+renderType: freemarker
+templateScript: /personal/templates/pages/home.ftl
+dialog: mtk:pages/basic
+areas:
+  intro:
+    type: single
+    availableComponents:
+      mtk-intro:
+        id: mtk:components/pageIntro
+  main:
+    availableComponents:
+      about:
+        id: personal:components/about
+      experience:
+        id: personal:components/experience
+  banner:
+    availableComponents:
+      text:
+        id: personal:components/banner
+  skills:
+    availableComponents:
+      skills:
+        id: personal:components/skills
+  projects:
+    availableComponents:
+      projects:
+        id: personal:components/projects
+  portfolio:
+    availableComponents:
+      portfolio:
+        id: personal:components/portfolio
+  contact:
+    availableComponents:
+      portfolio:
+        id: personal:components/contact
+  footer:
+    autoGeneration:
+      content:
+        footer:
+          nodeType: mgnl:component
+          templateId: personal:components/footer
+      generatorClass: info.magnolia.rendering.generator.CopyGenerator

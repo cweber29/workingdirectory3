@@ -1,0 +1,4 @@
+title: Portfolio
+renderType: freemarker
+templateScript: /personal/templates/components/portfolio.ftl
+dialog: personal:components/portfolio

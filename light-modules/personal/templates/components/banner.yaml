@@ -1,0 +1,4 @@
+title: Banner
+renderType: freemarker
+templateScript: /personal/templates/components/banner.ftl
+dialog: personal:components/banner

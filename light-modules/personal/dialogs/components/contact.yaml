@@ -1,0 +1,42 @@
+form:
+  tabs:
+    - name: tabText
+      label: Contact
+      fields:
+        - name: label1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: label2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: label3
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: label4
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: subtitle
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Info Subtitle
+
+        - name: info1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Information 1
+
+        - name: info2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Information 2
+
+        - name: embedmap
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Insert embed map code here
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

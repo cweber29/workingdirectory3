@@ -1,0 +1,4 @@
+title: Footer
+renderType: freemarker
+templateScript: /personal/templates/components/footer.ftl
+dialog: personal:components/footer

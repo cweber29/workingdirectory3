@@ -1,0 +1,35 @@
+form:
+  label: projects
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: company
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: companyValue
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Number
+
+        - name: years
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: yearsValue
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Number
+
+        - name: satisfaction
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: satisfactionValue
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Percentage
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

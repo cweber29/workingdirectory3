@@ -1,0 +1,23 @@
+title: Cass Home
+renderType: freemarker
+templateScript: /personal/templates/pages/home.ftl
+dialog: mtk:pages/basic
+areas:
+  intro:
+    type: single
+    availableComponents:
+      mtk-intro:
+        id: mtk:components/pageIntro
+  main:
+    availableComponents:
+      text:
+        id: personal:components/text
+  banner:
+    availableComponents:
+      text:
+        id: personal:components/banner
+  footer:
+    inheritance:
+      enabled: true
+      components: all
+    editable: false

@@ -1,0 +1,43 @@
+form:
+  label: text
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: subtitle
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Subtitle
+
+        - name: review
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: review
+
+        - name: image
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          label: Image
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+
+        - name: layout
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: Layout
+          options:
+            - name: left
+              value: left
+              label: Left
+            - name: right
+              value: right
+              label: Right
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
